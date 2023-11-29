@@ -4,6 +4,7 @@ import { Footer } from "../components/Footer"
 import { Links } from '../components/Links';
 import { HeadLine } from '../components/HeadLine';
 import { Main } from '../components/Main';
+import { Header } from '../components/Header';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <title>Index page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
       <Main page="index" />
       <Footer />
 
